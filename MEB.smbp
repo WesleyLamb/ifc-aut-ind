@@ -3,7 +3,7 @@
   <ProjectVersion>2.7.0.0</ProjectVersion>
   <ManagementLevel>FunctLevelMan18_0</ManagementLevel>
   <Name>MEB</Name>
-  <FullName>C:\Users\Noturno\Documents\MBE\ifc-aut-ind-master\MEB.smbp</FullName>
+  <FullName>C:\Users\Noturno\Documents\MBE\MEB.smbp</FullName>
   <CurrentCultureName>pt-BR</CurrentCultureName>
   <SoftwareConfiguration>
     <Pous>
@@ -17,7 +17,7 @@
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%I0.0</Descriptor>
                 <Comment />
-                <Symbol>CMD_PAI_EMER_ATUA</Symbol>
+                <Symbol>IN_PAI_EMER_ATUA</Symbol>
                 <Row>0</Row>
                 <Column>0</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
@@ -26,7 +26,7 @@
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M0</Descriptor>
                 <Comment />
-                <Symbol>AUX_PAI_EMER_ATUA</Symbol>
+                <Symbol>SIG_PAI_EMER_ATUA</Symbol>
                 <Row>0</Row>
                 <Column>10</Column>
                 <ChosenConnection>Left</ChosenConnection>
@@ -107,7 +107,7 @@
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M1</Descriptor>
                 <Comment />
-                <Symbol>AUX_PAI_EMER_DESA</Symbol>
+                <Symbol>SIG_PAI_EMER_DESA</Symbol>
                 <Row>0</Row>
                 <Column>10</Column>
                 <ChosenConnection>Left</ChosenConnection>
@@ -170,7 +170,7 @@
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%I0.1</Descriptor>
                 <Comment />
-                <Symbol>CMD_PAI_EMER_DESA</Symbol>
+                <Symbol>IN_PAI_EMER_DESA</Symbol>
                 <Row>0</Row>
                 <Column>0</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
@@ -197,7 +197,7 @@
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%I0.2</Descriptor>
                 <Comment />
-                <Symbol>CMD_PAI_LOCA</Symbol>
+                <Symbol>IN_PAI_LOCA</Symbol>
                 <Row>0</Row>
                 <Column>0</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
@@ -206,7 +206,7 @@
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M2</Descriptor>
                 <Comment />
-                <Symbol>AUX_PAI_LOCA</Symbol>
+                <Symbol>SIG_PAI_LOCA</Symbol>
                 <Row>0</Row>
                 <Column>10</Column>
                 <ChosenConnection>Left</ChosenConnection>
@@ -287,7 +287,7 @@
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%I0.3</Descriptor>
                 <Comment />
-                <Symbol>CMD_PAI_REMO</Symbol>
+                <Symbol>IN_PAI_REMO</Symbol>
                 <Row>0</Row>
                 <Column>0</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
@@ -296,7 +296,7 @@
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M3</Descriptor>
                 <Comment />
-                <Symbol>AUX_PAI_REMO</Symbol>
+                <Symbol>SIG_PAI_REMO</Symbol>
                 <Row>0</Row>
                 <Column>10</Column>
                 <ChosenConnection>Left</ChosenConnection>
@@ -377,7 +377,7 @@
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%I0.4</Descriptor>
                 <Comment />
-                <Symbol>CMD_PAI_MOT1_LIGA</Symbol>
+                <Symbol>IN_PAI_MOT1_LIGA</Symbol>
                 <Row>0</Row>
                 <Column>0</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
@@ -386,7 +386,7 @@
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M4</Descriptor>
                 <Comment />
-                <Symbol>AUX_PAI_MOT1_LIGA</Symbol>
+                <Symbol>SIG_PAI_MOT1_LIGA</Symbol>
                 <Row>0</Row>
                 <Column>10</Column>
                 <ChosenConnection>Left</ChosenConnection>
@@ -467,7 +467,7 @@
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%I0.5</Descriptor>
                 <Comment />
-                <Symbol>CMD_PAI_MOT1_DESL</Symbol>
+                <Symbol>IN_PAI_MOT1_DESL</Symbol>
                 <Row>0</Row>
                 <Column>0</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
@@ -476,7 +476,7 @@
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M5</Descriptor>
                 <Comment />
-                <Symbol>AUX_PAI_MOT1_DESL</Symbol>
+                <Symbol>SIG_PAI_MOT1_DESL</Symbol>
                 <Row>0</Row>
                 <Column>10</Column>
                 <ChosenConnection>Left</ChosenConnection>
@@ -557,7 +557,7 @@
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%I0.6</Descriptor>
                 <Comment />
-                <Symbol>CMD_PAI_MOT2_LIGA</Symbol>
+                <Symbol>IN_PAI_MOT2_LIGA</Symbol>
                 <Row>0</Row>
                 <Column>0</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
@@ -566,7 +566,7 @@
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M6</Descriptor>
                 <Comment />
-                <Symbol>AUX_PAI_MOT2_LIGA</Symbol>
+                <Symbol>SIG_PAI_MOT2_LIGA</Symbol>
                 <Row>0</Row>
                 <Column>10</Column>
                 <ChosenConnection>Left</ChosenConnection>
@@ -647,7 +647,7 @@
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%I0.7</Descriptor>
                 <Comment />
-                <Symbol>CMD_PAI_MOT2_DESL</Symbol>
+                <Symbol>IN_PAI_MOT2_DESL</Symbol>
                 <Row>0</Row>
                 <Column>0</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
@@ -656,7 +656,7 @@
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M7</Descriptor>
                 <Comment />
-                <Symbol>AUX_PAI_MOT2_DESL</Symbol>
+                <Symbol>SIG_PAI_MOT2_DESL</Symbol>
                 <Row>0</Row>
                 <Column>10</Column>
                 <ChosenConnection>Left</ChosenConnection>
@@ -737,7 +737,7 @@
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M8</Descriptor>
                 <Comment />
-                <Symbol>MOT1_LIGA_LOCA</Symbol>
+                <Symbol>SIG_MOT1_LIGA_LOCA</Symbol>
                 <Row>0</Row>
                 <Column>10</Column>
                 <ChosenConnection>Left</ChosenConnection>
@@ -788,7 +788,7 @@
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M9</Descriptor>
                 <Comment />
-                <Symbol>MOT1_DESL_LOCA</Symbol>
+                <Symbol>SIG_MOT1_DESL_LOCA</Symbol>
                 <Row>1</Row>
                 <Column>10</Column>
                 <ChosenConnection>Left</ChosenConnection>
@@ -797,7 +797,7 @@
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M10</Descriptor>
                 <Comment />
-                <Symbol>MOT2_LIGA_LOCA</Symbol>
+                <Symbol>SIG_MOT2_LIGA_LOCA</Symbol>
                 <Row>2</Row>
                 <Column>10</Column>
                 <ChosenConnection>Left</ChosenConnection>
@@ -806,7 +806,7 @@
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M11</Descriptor>
                 <Comment />
-                <Symbol>MOT2_DESL_LOCA</Symbol>
+                <Symbol>SIG_MOT2_DESL_LOCA</Symbol>
                 <Row>3</Row>
                 <Column>10</Column>
                 <ChosenConnection>Left</ChosenConnection>
@@ -815,7 +815,7 @@
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M1</Descriptor>
                 <Comment />
-                <Symbol>AUX_PAI_EMER_DESA</Symbol>
+                <Symbol>SIG_PAI_EMER_DESA</Symbol>
                 <Row>0</Row>
                 <Column>0</Column>
                 <ChosenConnection>Down, Left, Right</ChosenConnection>
@@ -824,7 +824,7 @@
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M2</Descriptor>
                 <Comment />
-                <Symbol>AUX_PAI_LOCA</Symbol>
+                <Symbol>SIG_PAI_LOCA</Symbol>
                 <Row>0</Row>
                 <Column>1</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
@@ -833,7 +833,7 @@
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M3</Descriptor>
                 <Comment />
-                <Symbol>AUX_PAI_REMO</Symbol>
+                <Symbol>SIG_PAI_REMO</Symbol>
                 <Row>4</Row>
                 <Column>1</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
@@ -866,7 +866,7 @@
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M12</Descriptor>
                 <Comment />
-                <Symbol>INI_REMO</Symbol>
+                <Symbol>SIG_INI_REMO</Symbol>
                 <Row>4</Row>
                 <Column>10</Column>
                 <ChosenConnection>Left</ChosenConnection>
@@ -875,7 +875,7 @@
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M13</Descriptor>
                 <Comment />
-                <Symbol>FIM_REMOTO</Symbol>
+                <Symbol>SIG_FIM_REMOTO</Symbol>
                 <Row>5</Row>
                 <Column>10</Column>
                 <ChosenConnection>Left</ChosenConnection>
@@ -926,7 +926,7 @@
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M4</Descriptor>
                 <Comment />
-                <Symbol>AUX_PAI_MOT1_LIGA</Symbol>
+                <Symbol>SIG_PAI_MOT1_LIGA</Symbol>
                 <Row>0</Row>
                 <Column>9</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
@@ -935,7 +935,7 @@
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M5</Descriptor>
                 <Comment />
-                <Symbol>AUX_PAI_MOT1_DESL</Symbol>
+                <Symbol>SIG_PAI_MOT1_DESL</Symbol>
                 <Row>1</Row>
                 <Column>9</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
@@ -956,7 +956,7 @@
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M6</Descriptor>
                 <Comment />
-                <Symbol>AUX_PAI_MOT2_LIGA</Symbol>
+                <Symbol>SIG_PAI_MOT2_LIGA</Symbol>
                 <Row>2</Row>
                 <Column>9</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
@@ -965,7 +965,7 @@
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M7</Descriptor>
                 <Comment />
-                <Symbol>AUX_PAI_MOT2_DESL</Symbol>
+                <Symbol>SIG_PAI_MOT2_DESL</Symbol>
                 <Row>3</Row>
                 <Column>9</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
@@ -1103,10 +1103,200 @@
           <RungEntity>
             <LadderElements>
               <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Row>0</Row>
+                <Column>9</Column>
+                <ChosenConnection>Down, Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Row>0</Row>
+                <Column>7</Column>
+                <ChosenConnection>Down, Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Row>0</Row>
+                <Column>6</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Row>0</Row>
+                <Column>5</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Row>0</Row>
+                <Column>4</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Row>0</Row>
+                <Column>3</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Row>0</Row>
+                <Column>2</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Row>0</Row>
+                <Column>1</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>SetCoil</ElementType>
+                <Descriptor>%M30</Descriptor>
+                <Comment />
+                <Symbol>MODO_LOCA</Symbol>
+                <Row>0</Row>
+                <Column>10</Column>
+                <ChosenConnection>Left</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>ResetCoil</ElementType>
+                <Descriptor>%M32</Descriptor>
+                <Comment />
+                <Symbol>MODO_REMO</Symbol>
+                <Row>1</Row>
+                <Column>10</Column>
+                <ChosenConnection>Left</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>SetCoil</ElementType>
+                <Descriptor>%M32</Descriptor>
+                <Comment />
+                <Symbol>MODO_REMO</Symbol>
+                <Row>2</Row>
+                <Column>10</Column>
+                <ChosenConnection>Left</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>ResetCoil</ElementType>
+                <Descriptor>%M30</Descriptor>
+                <Comment />
+                <Symbol>MODO_LOCA</Symbol>
+                <Row>3</Row>
+                <Column>10</Column>
+                <ChosenConnection>Left</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>NormalContact</ElementType>
+                <Descriptor>%M2</Descriptor>
+                <Comment />
+                <Symbol>SIG_PAI_LOCA</Symbol>
+                <Row>0</Row>
+                <Column>8</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>VerticalLine</ElementType>
+                <Row>1</Row>
+                <Column>9</Column>
+                <ChosenConnection>Up, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M3</Descriptor>
                 <Comment />
-                <Symbol>AUX_PAI_REMO</Symbol>
+                <Symbol>SIG_PAI_REMO</Symbol>
+                <Row>2</Row>
+                <Column>8</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>VerticalLine</ElementType>
+                <Row>1</Row>
+                <Column>7</Column>
+                <ChosenConnection>Up, Down</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>VerticalLine</ElementType>
+                <Row>2</Row>
+                <Column>7</Column>
+                <ChosenConnection>Up, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Row>2</Row>
+                <Column>9</Column>
+                <ChosenConnection>Down, Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>VerticalLine</ElementType>
+                <Row>3</Row>
+                <Column>9</Column>
+                <ChosenConnection>Up, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Row>0</Row>
+                <Column>0</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>None</ElementType>
+                <Row>2</Row>
+                <Column>4</Column>
+                <ChosenConnection>None</ChosenConnection>
+              </LadderEntity>
+            </LadderElements>
+            <InstructionLines>
+              <InstructionLineEntity>
+                <InstructionLine>LD  1</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>MPS</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>AND  %M2</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>S  %M30</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>R  %M32</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>MPP</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>AND  %M3</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>S  %M32</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>R  %M30</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+            </InstructionLines>
+            <Name />
+            <MainComment />
+            <Label />
+            <IsLadderSelected>true</IsLadderSelected>
+          </RungEntity>
+          <RungEntity>
+            <LadderElements>
+              <LadderEntity>
+                <ElementType>NormalContact</ElementType>
+                <Descriptor>%M3</Descriptor>
+                <Comment />
+                <Symbol>SIG_PAI_REMO</Symbol>
                 <Row>0</Row>
                 <Column>1</Column>
                 <ChosenConnection>Down, Left, Right</ChosenConnection>
@@ -1171,9 +1361,9 @@
               </LadderEntity>
               <LadderEntity>
                 <ElementType>NormalContact</ElementType>
-                <Descriptor>%M4</Descriptor>
+                <Descriptor>%M1</Descriptor>
                 <Comment />
-                <Symbol>AUX_PAI_MOT1_LIGA</Symbol>
+                <Symbol>SIG_PAI_EMER_DESA</Symbol>
                 <Row>0</Row>
                 <Column>0</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
@@ -1256,12 +1446,6 @@
                 <Column>10</Column>
                 <ChosenConnection>Left</ChosenConnection>
               </LadderEntity>
-              <LadderEntity>
-                <ElementType>None</ElementType>
-                <Row>1</Row>
-                <Column>3</Column>
-                <ChosenConnection>None</ChosenConnection>
-              </LadderEntity>
             </LadderElements>
             <InstructionLines>
               <InstructionLineEntity>
@@ -1277,7 +1461,7 @@
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>AND   %M4</InstructionLine>
+                <InstructionLine>AND   %M1</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
@@ -1407,7 +1591,7 @@
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M8</Descriptor>
                 <Comment />
-                <Symbol>MOT1_LIGA_LOCA</Symbol>
+                <Symbol>SIG_MOT1_LIGA_LOCA</Symbol>
                 <Row>0</Row>
                 <Column>0</Column>
                 <ChosenConnection>Down, Left, Right</ChosenConnection>
@@ -1416,7 +1600,7 @@
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M12</Descriptor>
                 <Comment />
-                <Symbol>INI_REMO</Symbol>
+                <Symbol>SIG_INI_REMO</Symbol>
                 <Row>1</Row>
                 <Column>0</Column>
                 <ChosenConnection>Up, Down, Left</ChosenConnection>
@@ -1425,7 +1609,7 @@
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M1</Descriptor>
                 <Comment />
-                <Symbol>AUX_PAI_EMER_DESA</Symbol>
+                <Symbol>SIG_PAI_EMER_DESA</Symbol>
                 <Row>0</Row>
                 <Column>9</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
@@ -1452,7 +1636,7 @@
                 <ElementType>NegatedContact</ElementType>
                 <Descriptor>%M5</Descriptor>
                 <Comment />
-                <Symbol>AUX_PAI_MOT1_DESL</Symbol>
+                <Symbol>SIG_PAI_MOT1_DESL</Symbol>
                 <Row>0</Row>
                 <Column>8</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
@@ -1600,7 +1784,38 @@
       </ProgramOrganizationUnits>
     </Pous>
     <Subroutines />
-    <WatchLists />
+    <WatchLists>
+      <WatchListEntity>
+        <Name>Tabela de animação_0</Name>
+        <WatchListItemEntities>
+          <WatchListItemEntity>
+            <Address>%M1</Address>
+            <IsTraced>false</IsTraced>
+            <ValueRepresentation>BoolNumeric</ValueRepresentation>
+          </WatchListItemEntity>
+          <WatchListItemEntity>
+            <Address>%M2</Address>
+            <IsTraced>false</IsTraced>
+            <ValueRepresentation>BoolNumeric</ValueRepresentation>
+          </WatchListItemEntity>
+          <WatchListItemEntity>
+            <Address>%M30</Address>
+            <IsTraced>false</IsTraced>
+            <ValueRepresentation>BoolNumeric</ValueRepresentation>
+          </WatchListItemEntity>
+          <WatchListItemEntity>
+            <Address>%M31</Address>
+            <IsTraced>false</IsTraced>
+            <ValueRepresentation>BoolNumeric</ValueRepresentation>
+          </WatchListItemEntity>
+          <WatchListItemEntity>
+            <Address>%M0</Address>
+            <IsTraced>false</IsTraced>
+            <ValueRepresentation>BoolNumeric</ValueRepresentation>
+          </WatchListItemEntity>
+        </WatchListItemEntities>
+      </WatchListEntity>
+    </WatchLists>
     <CustomSymbols />
     <ConstantWordsMemoryAllocation />
     <MemoryBitsMemoryAllocation>
@@ -1611,7 +1826,9 @@
       <Allocation>Manual</Allocation>
       <ForcedCount>2000</ForcedCount>
     </MemoryWordsMemoryAllocation>
-    <TimersMemoryAllocation />
+    <TimersMemoryAllocation>
+      <ForcedCount>2</ForcedCount>
+    </TimersMemoryAllocation>
     <CountersMemoryAllocation />
     <RegistersMemoryAllocation />
     <DrumsMemoryAllocation />
@@ -1625,72 +1842,72 @@
       <MemoryBit>
         <Address>%M0</Address>
         <Index>0</Index>
-        <Symbol>AUX_PAI_EMER_ATUA</Symbol>
+        <Symbol>SIG_PAI_EMER_ATUA</Symbol>
       </MemoryBit>
       <MemoryBit>
         <Address>%M1</Address>
         <Index>1</Index>
-        <Symbol>AUX_PAI_EMER_DESA</Symbol>
+        <Symbol>SIG_PAI_EMER_DESA</Symbol>
       </MemoryBit>
       <MemoryBit>
         <Address>%M2</Address>
         <Index>2</Index>
-        <Symbol>AUX_PAI_LOCA</Symbol>
+        <Symbol>SIG_PAI_LOCA</Symbol>
       </MemoryBit>
       <MemoryBit>
         <Address>%M3</Address>
         <Index>3</Index>
-        <Symbol>AUX_PAI_REMO</Symbol>
+        <Symbol>SIG_PAI_REMO</Symbol>
       </MemoryBit>
       <MemoryBit>
         <Address>%M4</Address>
         <Index>4</Index>
-        <Symbol>AUX_PAI_MOT1_LIGA</Symbol>
+        <Symbol>SIG_PAI_MOT1_LIGA</Symbol>
       </MemoryBit>
       <MemoryBit>
         <Address>%M5</Address>
         <Index>5</Index>
-        <Symbol>AUX_PAI_MOT1_DESL</Symbol>
+        <Symbol>SIG_PAI_MOT1_DESL</Symbol>
       </MemoryBit>
       <MemoryBit>
         <Address>%M6</Address>
         <Index>6</Index>
-        <Symbol>AUX_PAI_MOT2_LIGA</Symbol>
+        <Symbol>SIG_PAI_MOT2_LIGA</Symbol>
       </MemoryBit>
       <MemoryBit>
         <Address>%M7</Address>
         <Index>7</Index>
-        <Symbol>AUX_PAI_MOT2_DESL</Symbol>
+        <Symbol>SIG_PAI_MOT2_DESL</Symbol>
       </MemoryBit>
       <MemoryBit>
         <Address>%M8</Address>
         <Index>8</Index>
-        <Symbol>MOT1_LIGA_LOCA</Symbol>
+        <Symbol>SIG_MOT1_LIGA_LOCA</Symbol>
       </MemoryBit>
       <MemoryBit>
         <Address>%M9</Address>
         <Index>9</Index>
-        <Symbol>MOT1_DESL_LOCA</Symbol>
+        <Symbol>SIG_MOT1_DESL_LOCA</Symbol>
       </MemoryBit>
       <MemoryBit>
         <Address>%M10</Address>
         <Index>10</Index>
-        <Symbol>MOT2_LIGA_LOCA</Symbol>
+        <Symbol>SIG_MOT2_LIGA_LOCA</Symbol>
       </MemoryBit>
       <MemoryBit>
         <Address>%M11</Address>
         <Index>11</Index>
-        <Symbol>MOT2_DESL_LOCA</Symbol>
+        <Symbol>SIG_MOT2_DESL_LOCA</Symbol>
       </MemoryBit>
       <MemoryBit>
         <Address>%M12</Address>
         <Index>12</Index>
-        <Symbol>INI_REMO</Symbol>
+        <Symbol>SIG_INI_REMO</Symbol>
       </MemoryBit>
       <MemoryBit>
         <Address>%M13</Address>
         <Index>13</Index>
-        <Symbol>FIM_REMOTO</Symbol>
+        <Symbol>SIG_FIM_REMOTO</Symbol>
       </MemoryBit>
       <MemoryBit>
         <Address>%M20</Address>
@@ -1701,6 +1918,16 @@
         <Address>%M21</Address>
         <Index>21</Index>
         <Symbol>FT_MOT2_LIGA</Symbol>
+      </MemoryBit>
+      <MemoryBit>
+        <Address>%M30</Address>
+        <Index>30</Index>
+        <Symbol>MODO_LOCA</Symbol>
+      </MemoryBit>
+      <MemoryBit>
+        <Address>%M32</Address>
+        <Index>32</Index>
+        <Symbol>MODO_REMO</Symbol>
       </MemoryBit>
       <MemoryBit>
         <Address>%M51</Address>
@@ -3161,56 +3388,56 @@
           <DiscretInput>
             <Address>%I0.0</Address>
             <Index>0</Index>
-            <Symbol>CMD_PAI_EMER_ATUA</Symbol>
+            <Symbol>IN_PAI_EMER_ATUA</Symbol>
             <DIFiltering>DIFilterings4ms</DIFiltering>
             <DILatch>DILatchNo</DILatch>
           </DiscretInput>
           <DiscretInput>
             <Address>%I0.1</Address>
             <Index>1</Index>
-            <Symbol>CMD_PAI_EMER_DESA</Symbol>
+            <Symbol>IN_PAI_EMER_DESA</Symbol>
             <DIFiltering>DIFilterings4ms</DIFiltering>
             <DILatch>DILatchNo</DILatch>
           </DiscretInput>
           <DiscretInput>
             <Address>%I0.2</Address>
             <Index>2</Index>
-            <Symbol>CMD_PAI_LOCA</Symbol>
+            <Symbol>IN_PAI_LOCA</Symbol>
             <DIFiltering>DIFilterings4ms</DIFiltering>
             <DILatch>DILatchNo</DILatch>
           </DiscretInput>
           <DiscretInput>
             <Address>%I0.3</Address>
             <Index>3</Index>
-            <Symbol>CMD_PAI_REMO</Symbol>
+            <Symbol>IN_PAI_REMO</Symbol>
             <DIFiltering>DIFilterings4ms</DIFiltering>
             <DILatch>DILatchNo</DILatch>
           </DiscretInput>
           <DiscretInput>
             <Address>%I0.4</Address>
             <Index>4</Index>
-            <Symbol>CMD_PAI_MOT1_LIGA</Symbol>
+            <Symbol>IN_PAI_MOT1_LIGA</Symbol>
             <DIFiltering>DIFilterings4ms</DIFiltering>
             <DILatch>DILatchNo</DILatch>
           </DiscretInput>
           <DiscretInput>
             <Address>%I0.5</Address>
             <Index>5</Index>
-            <Symbol>CMD_PAI_MOT1_DESL</Symbol>
+            <Symbol>IN_PAI_MOT1_DESL</Symbol>
             <DIFiltering>DIFilterings4ms</DIFiltering>
             <DILatch>DILatchNo</DILatch>
           </DiscretInput>
           <DiscretInput>
             <Address>%I0.6</Address>
             <Index>6</Index>
-            <Symbol>CMD_PAI_MOT2_LIGA</Symbol>
+            <Symbol>IN_PAI_MOT2_LIGA</Symbol>
             <DIFiltering>DIFilterings4ms</DIFiltering>
             <DILatch>DILatchNo</DILatch>
           </DiscretInput>
           <DiscretInput>
             <Address>%I0.7</Address>
             <Index>7</Index>
-            <Symbol>CMD_PAI_MOT2_DESL</Symbol>
+            <Symbol>IN_PAI_MOT2_DESL</Symbol>
             <DIFiltering>DIFilterings4ms</DIFiltering>
             <DILatch>DILatchNo</DILatch>
           </DiscretInput>
